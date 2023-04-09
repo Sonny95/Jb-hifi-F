@@ -1,0 +1,74 @@
+.headContainer {
+    background-color: yellow;
+    width:100%;
+    height:80px;
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.headWrap {
+    width:1380px;
+    height:80px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.logo {
+    width:250px;
+    height:80px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navSearchBar {
+    width:350px;
+    height:40px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.NavCotainer{
+    width:100%;
+    height:35px;
+    background-color: black;
+    display: flex;
+    display: inline-block;
+}
+
+.Navcontents{
+    display: inline-block;
+    width:150px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 8px 0px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.searchBarWrap{
+    width:65%;
+    height:80px;
+}
+
+.NavWrap{
+    width:1380px;
+    margin:0px auto;
+}
+
+.headIconsWrap{
+    width:300px;
+    float:right;    
+    height: 50px;
+    margin: auto 0px;
+}
+

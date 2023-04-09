@@ -1,0 +1,166 @@
+.detailPage {
+    width:100%;
+    margin-top: 150px;
+}
+
+.detailWrap {
+    width:1150px;
+    margin:0px auto;
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.detailLeftContainer {
+    width:70%;
+    margin:0px auto;
+    background-color:rgb(95, 60, 14);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detailBox1 {
+    background-color: red;
+    width:30%;
+    height:500px;
+}
+
+.detailBox2 {
+    background-color: orange;
+    width:70%;
+    height:500px;
+}
+
+.detailBox3 {
+    background-color: yellow;
+    width:30%;
+}
+
+.helpButton {
+    position: fixed;
+    z-index: 1;
+    right:30px;
+    bottom: 20px;
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    background-color: yellow;
+    border: none;
+}
+
+.detailContentsBox{
+    width:100%;
+    height:100px;
+    background-color: aqua;
+}
+
+.detailPhotos{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.box1Container{
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.symbolPhoto{
+    width:100%;
+    height:100%;
+    background-color: wheat;
+}
+
+.priceBox{
+    width:100px;
+    height:80px;
+    background-color: yellow;
+}
+
+.sizeChartContainer{
+    display: flex;
+    gap: 10px 20px;
+}
+
+.sizeChartBox{
+    width:50px;
+    height:50px;
+    background-color: blueviolet;
+}
+
+.warrantyPriceBox{
+    width:100%;
+    height:80px;
+    background-color: aquamarine;
+}
+
+.warrantyContainer{
+    width:100%;
+    height:150px;
+    background-color: yellowgreen;
+    margin-top: 20px;
+}
+
+.productKetLetterContainer{
+    width:100%;
+    height:250px;
+    background-color:burlywood;
+    margin-top: 20px;
+}
+
+.cartButtonContainer{
+    width:100%;
+    height:100px;
+    background-color:rgb(95, 60, 14);
+    margin-top: 20px;
+}
+
+.cartButton{
+    width:80%;
+}
+
+.heartButton{
+    margin-left: 7%;
+}
+
+.availableButton{
+    width:100%;
+    margin-top: 20px;
+}
+
+.callContainer{
+    width:100%;
+    height:80px;
+    background-color:lightgray;
+    margin-top: 20px;
+}
+
+.hoContainer{
+    display: flex;
+}
+
+.detailBox4 {
+    background-color: blue;
+    width:100%;
+    height:500px;
+    /* flex-wrap: wrap; */
+    display: flex;
+}
+
+.smilarProduct{
+    width:400px;
+    height:100%;
+    background-color: cadetblue;
+    margin:0px 10px;
+    z-index: 1;
+}
+
+.productIntContainer{
+    width:100%;
+    height:100%;
+    background-color: lightgray;
+    margin-bottom: 100px;
+}
