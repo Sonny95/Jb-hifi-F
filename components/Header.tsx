@@ -11,6 +11,8 @@ import { useSelector, useDispatch, TypedUseSelectorHook  } from 'react-redux';
 import  { userSlice } from '../pages/api/features/userSlice'
 import type { RootState, AppDispatch } from '../pages/app/store'
 import { useAppDispatch, useAppSelector } from '../pages/app/hooks'
+import Logo from './Logo';
+
 
 
 
@@ -29,7 +31,7 @@ export default function Header() {
             <div className={styles.headContainer}>
                 <div className={styles.headWrap}>
                 
-                    <Link href='/'><img className={styles.logo} src='https://geppsxhomehq.com.au/wp-content/uploads/2014/10/JB_HORIZONTAL_new.jpg'></img></Link>
+                    <Link href='/'><Logo /></Link>
                     <div className={styles.searchBarWrap}>
                     <input className={styles.navSearchBar} placeholder='Search products, brands, and more...'></input>
                     </div>

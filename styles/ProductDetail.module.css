@@ -6,34 +6,30 @@
 .detailWrap {
     width:1150px;
     margin:0px auto;
-    background-color: black;
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
 }
 
 .detailLeftContainer {
-    width:70%;
+    width:65%;
     margin:0px auto;
-    background-color:rgb(95, 60, 14);
     display: flex;
     flex-wrap: wrap;
 }
 
 .detailBox1 {
-    background-color: red;
-    width:30%;
+    width:35%;
     height:500px;
+    
 }
 
 .detailBox2 {
-    background-color: orange;
-    width:70%;
+    width:65%;
     height:500px;
 }
 
 .detailBox3 {
-    background-color: yellow;
     width:30%;
 }
 
@@ -52,13 +48,11 @@
 .detailContentsBox{
     width:100%;
     height:100px;
-    background-color: aqua;
 }
 
 .detailPhotos{
     width:100px;
     height:100px;
-    background-color: blueviolet;
     border: 1px solid black;
 }
 
@@ -71,13 +65,34 @@
 .symbolPhoto{
     width:100%;
     height:100%;
-    background-color: wheat;
 }
 
 .priceBox{
-    width:100px;
-    height:80px;
+    height:50px;
+    width:200px;
     background-color: yellow;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    font-size: 22px;
+    color: red;
+    font-weight: 700;
+    box-shadow: 2px 2px #000;
+}
+
+.ticketFont {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: -10px;
+    display: flex;
+}
+
+.ticketNumberFont {
+    text-decoration-line: line-through;
+    margin-left: 5px;
 }
 
 .sizeChartContainer{
@@ -88,33 +103,28 @@
 .sizeChartBox{
     width:50px;
     height:50px;
-    background-color: blueviolet;
 }
 
 .warrantyPriceBox{
     width:100%;
     height:80px;
-    background-color: aquamarine;
 }
 
 .warrantyContainer{
     width:100%;
-    height:150px;
-    background-color: yellowgreen;
+    height:100px;
     margin-top: 20px;
 }
 
 .productKetLetterContainer{
     width:100%;
-    height:250px;
-    background-color:burlywood;
+    height:120px;
     margin-top: 20px;
 }
 
 .cartButtonContainer{
     width:100%;
     height:100px;
-    background-color:rgb(95, 60, 14);
     margin-top: 20px;
 }
 
@@ -133,9 +143,11 @@
 
 .callContainer{
     width:100%;
-    height:80px;
+    height:150px;
     background-color:lightgray;
     margin-top: 20px;
+    padding:20px;
+    font-size: 15px;
 }
 
 .hoContainer{
@@ -143,24 +155,31 @@
 }
 
 .detailBox4 {
-    background-color: blue;
+    height:130px;
     width:100%;
-    height:500px;
-    /* flex-wrap: wrap; */
-    display: flex;
+    background-color: lightgray;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 2px 2px #000;
 }
 
-.smilarProduct{
-    width:400px;
+
+.missBox{
+    width:100%;
     height:100%;
-    background-color: cadetblue;
     margin:0px 10px;
     z-index: 1;
+    padding:10px
 }
+
 
 .productIntContainer{
     width:100%;
     height:100%;
-    background-color: lightgray;
     margin-bottom: 100px;
 }

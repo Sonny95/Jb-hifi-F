@@ -11,7 +11,7 @@ export default function logout() {
     const router = useRouter()
 
     const deleteCookie = function(name){
-        document.cookie = name + '=; expires=Thu, 01 Jan 1999 00:00:10 GMT;';
+        document.cookie = name + '=;';
       }
 
     const handleLogout =(e)=>{
@@ -27,9 +27,12 @@ export default function logout() {
         <div>
             <div className={styles.container}>
             <Link href='/'><img className={styles.logoutLogo} src='https://cdn.shopify.com/s/files/1/0024/9803/5810/files/logo.png?height=628&pad_color=fff&v=1613146384&width=1200'></img></Link>
-            <p>Hi Name,</p>
+            <p>If you want log out, you can clikc the button</p>
             <button onClick={(e)=> handleLogout(e)}>Logout</button>
             </div>
         </div>
     )
 }
+
+
+
