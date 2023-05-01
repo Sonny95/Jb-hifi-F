@@ -89,7 +89,7 @@ export default function Login() {
                 <hr></hr>
                 <div className={styles.loginFooter}>
                     <div className={styles.footerWrap}>
-                    <p className={styles.footerWord1}>© JB Hi-Fi. All rights reserved.</p>
+                    <p className={styles.footerWord1}>© JB Hi-Fi. All rights reserved..</p>
                     <p className={styles.footerwords}>Privacy policy</p>
                     <p className={styles.footerwords}>Terms of use</p>
                     <p className={styles.footerwords}>Terms of sale</p>

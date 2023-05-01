@@ -1,0 +1,103 @@
+.checkoutContainer {
+    width:100%;
+    background-color:floralwhite;
+    height:100%
+}
+
+.topLine {
+    width:100%;
+    height:30px;
+    background-color: yellow;
+}
+
+.containerBox {
+    width:1050px;
+    height:100%;
+    margin: 0px auto;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.containerLeft {
+    width:650px;
+    height:1000px;
+    background-color: aqua;
+    display: inline-block;
+    margin: auto 0px;
+}
+
+.deliveryBox {
+    width:100%;
+    height: 200px;
+    background-color: yellowgreen;
+    display: inline-block;
+}
+
+
+
+.secureP {
+    display: inline-block;
+    width:150px;
+    background-color: blue;
+}
+
+.userDetailContainer {
+    width:100%;
+    height:200px;
+    background-color:brown;
+    margin-top: 30px;
+}
+
+.userDetailBox {
+    width:100%;
+    height:150px;
+    background-color:antiquewhite ;
+}
+
+.deliveryP{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.deliveryBtnGrid {
+    width:100%;
+    height:50px;
+    display: table;
+}
+
+.deliveryBtn {
+    width:50%;
+    height:100%;
+    text-align: center;
+}
+
+.deliveryAddBtn {
+    width:100%;
+    height:100px;
+    background-color:blueviolet;
+}
+
+.delChooseBtn {
+    width:100%;
+    height:100px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.CheckoutBtn {
+    width:80%;
+    margin : auto 0px;
+}
+
+
+.containerRight {
+    width:400px;
+    height:1000px;
+    background-color:bisque;
+    margin: auto 0px;
+    display: inline-block;
+}
+
+
+
+

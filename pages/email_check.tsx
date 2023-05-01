@@ -1,7 +1,6 @@
 import styles from '../styles/EmailCheck.module.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Button from 'react-bootstrap/Button';
-import { AutoComplete } from 'antd';
 
 function handleClick() {
     alert('Go back to Homepage');
